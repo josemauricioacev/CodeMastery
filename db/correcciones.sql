@@ -1,4 +1,5 @@
---1.:
+USE codemastery;
+-- 1:
 
 -- Desactivar las restricciones de clave foránea temporalmente
 SET FOREIGN_KEY_CHECKS = 0;
@@ -34,7 +35,7 @@ UPDATE lessons SET module_id = 'python-modules' WHERE module_id = 'py-modules';
 -- Reactivar restricciones de clave foránea
 SET FOREIGN_KEY_CHECKS = 1;
 
---2.:
+-- 2:
 
 SET FOREIGN_KEY_CHECKS = 0;
 
